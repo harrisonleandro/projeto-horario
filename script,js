@@ -30,4 +30,4 @@ function checkTimeAndRefresh() {
         }
 
         // Verifica a cada segundo
-        setInterval(checkTimeAndRefresh, 250);
+        setInterval(checkTimeAndRefresh, 1000);
