@@ -19,4 +19,15 @@ function carregar(){
         document.body.style.background = '#5B466B'
     }
 }
+function checkTimeAndRefresh() {
+            const now = new Date();
+            const seconds = now.getSeconds();
 
+            // Atualiza a página no início de cada minuto (quando os segundos são 0)
+            if (seconds === 0) {
+                window.location.reload();
+            }
+        }
+
+        // Verifica a cada segundo
+        setInterval(checkTimeAndRefresh, 1000);
