@@ -20,7 +20,7 @@
 <div display="inline" align="center">
 
 <p>Manhã</p>
-<img src= "imagens/manhaph.png"></img>
+<img src= "imagens/manhaph.png" width: 500px></img>
 
 </div>
 
