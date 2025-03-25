@@ -39,6 +39,6 @@
 <hr>
 <div align="center">
 
-Criado por [Iago Amorim](https://github.com/danonep2).
+Criado por [Riukinho](https://github.com/harrisonleandro).
 
 </div>
