@@ -2,8 +2,8 @@ function carregar(){
     var msg = document.getElementById(`msg`)
     var img = document.getElementById(`imagem`)
     var data = new Date()
-    var hora = data.getHours()
-    var min = data.getMinutes()
+    var hora = data.getHours(),toString(),padStart(2, '0')
+    var min = data.getMinutes(),toString(),padStart(2, '0')
     msg.innerHTML = `Agora são ${hora}:${min}`
     if (hora >= 4 && hora < 12){
         // Cor: #D9BD89
